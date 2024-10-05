@@ -90,6 +90,7 @@ public class ContaTerminal {
                 return scanner.nextDouble();
             } catch (InputMismatchException e) {
                 System.out.println("Valor inválido. Por favor, insira um número decimal válido para o saldo.");
+
                 scanner.next();
             }
         }
